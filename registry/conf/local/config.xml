@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <regList>
+        <registry>      <!--consul配置中心-->
+            <type>consul</type>
+            <valid>false</valid>
+            <endpoint>
+                <address>127.0.0.1</address>
+                <port>8500</port>
+            </endpoint>
+        </registry>
+        <registry>      <!--etcd配置中心-->
+            <type>etcd</type>
+            <valid>true</valid>
+            <endpoint>
+                <address>127.0.0.1</address>
+                <port>2379</port>
+            </endpoint>
+        </registry>
+    </regList>
+</config>

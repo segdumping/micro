@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "github.com/micro/go-micro/api/proto/api.proto";
+
+package go.api;
+
+service Echo {
+    rpc Say(go.api.Request) returns (go.api.Response) {};
+    rpc Hi(go.api.Request) returns (go.api.Response) {};
+}

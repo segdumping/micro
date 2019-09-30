@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <micro>
+        <checkDuration>10</checkDuration> <!--服务状态检查间隔 -->
+        <reapDuration>30</reapDuration> <!--删除无效服务间隔-->
+    </micro>
+
+    <!--log-->
+    <log>
+        <level>debug</level>
+        <file>monitor.log</file>
+        <path>logs</path>
+    </log>
+</config>
