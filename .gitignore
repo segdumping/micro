@@ -16,4 +16,4 @@
 /gateway/gateway
 /hello/hello
 /monitor/monitor
-/default.etcd
+/gateway/default.etcd
